@@ -1,0 +1,70 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Vivian Ione Scott 🔗\nb. 1915, TX\nd. 1996, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908714/vivian-hodges_kline", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Chauncey William Hodges 🔗\nb. 1910, TX\nd. 1977, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908643/chauncey_william-hodges", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Samuel Mackel Scott 🔗\nb. 1885, TX\nd. 1975, TX", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/92234814/samuel_mackel_scott?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Myrtle Jewel Woody Scott 🔗\nb. 1893\nd. 1985, TX", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/92330605/myrtle_jewel-scott", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="James Mackel Scott 🔗\nb. 1859, LA\nd. 1910, TX", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L11M-1C8/james-mackel-%27max%27-scott-1859-1910", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Louisa Jane Dunning 🔗\nb. 1868, TX\nd. 1954, TX", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L28Y-8CP/louisa-jane-dunning-1868-1954", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Joseph Carrol Woody 🔗\nb. 1859, MS\nd. 1932, TX", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LVMJ-G2B/joseph-carrol-woody-1859-1932", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Clifford Green Duke 🔗\nb. 1861, GA\nd. 1947, TX", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LXSM-P9D/clifford-green-duke-1861-1947", target="_blank", tooltip=""];
+    "G3_SCOTT_GGF" [label="William Harrison Scott\nb. 1831\nd.", fillcolor="lightgreen", style="filled,rounded", tooltip=""];
+    "G3_FREEMAN_GGM" [label="Sarah Lou Freeman\nb. 1840\nd. 1900", fillcolor="lightgreen", style="filled,rounded", tooltip=""];
+    "G3_DUNNING_GGF" [label="Samuel Washington Dunning 🔗\nb. 1833, TN\nd. 1909, TX", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHXV-RX9/samuel-washington-dunning-1833-1909", target="_blank", tooltip=""];
+    "G3_SATTERWHITE_GGM" [label="Nancy Elizabeth Satterwhite 🔗\nb. 1830, TN\nd. 1913, AR", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHXV-R63/nancy-elizabeth-satterwhite-1828-1913", target="_blank", tooltip=""];
+    "G3_WOODY_GGF" [label="Moses Woody 🔗\nb. 1810, NC\nd. MS", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/LXSM-GTQ/moses-woody-1810", target="_blank", tooltip="", class="tree-connection"];
+    "G3_MCCRACKEN_GGM" [label="Mary S. McCracken 🔗\nb. 1815, TN\nd. 1889, TX", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/2Z8S-FQJ/mary-s-mccracken-1815-1889", target="_blank", tooltip="", class="tree-connection"];
+    "G3_DUKE_GGF" [label="Greenberry Duke 🔗\nb. 1817, GA\nd. 1899, TX", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/LRF7-ZTC/greenberry-duke-1817-1899", target="_blank", tooltip="", class="tree-connection"];
+    "G3_BOWDEN_GGM" [label="Louisa P. Bowden 🔗\nb. 1838, AL\nd. 1895, TX", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/KZ82-VBN/louisa-p-bowden-1838-1895", target="_blank", tooltip=""];
+    "G4_SATTERWHITE" [label="Paul Satterwhite 🔗\nb. 1795, GA\nd. 1858, AR", fillcolor="wheat", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/G947-VZ1/capt.-paul-satterwhite-1795-1858", target="_blank", tooltip="", class="tree-connection"];
+    "G4_POWELL" [label="Katherine Powell 🔗\nb. 1797, GA\nd. 1873, AR", fillcolor="wheat", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/G947-L4D/katherine-%22kittie%22-powell-1797-1873", target="_blank", tooltip="", class="tree-connection"];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1883, TX", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1882, TX", fontsize=10, fontcolor=black];
+    {rank=same; "G3_SCOTT_GGF"; "G3_FREEMAN_GGM"};
+    "G3_SCOTT_GGF" -> "G3_FREEMAN_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_DUNNING_GGF"; "G3_SATTERWHITE_GGM"};
+    "G3_DUNNING_GGF" -> "G3_SATTERWHITE_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1858, AR", fontsize=10, fontcolor=black];
+    {rank=same; "G3_WOODY_GGF"; "G3_MCCRACKEN_GGM"};
+    "G3_WOODY_GGF" -> "G3_MCCRACKEN_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_DUKE_GGF"; "G3_BOWDEN_GGM"};
+    "G3_DUKE_GGF" -> "G3_BOWDEN_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1862, GA", fontsize=10, fontcolor=black];
+    {rank=same; "G4_SATTERWHITE"; "G4_POWELL"};
+    "G4_SATTERWHITE" -> "G4_POWELL" [dir=none, color=black, style=dashed, constraint=false, label="m. 1814", fontsize=10, fontcolor=black];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_SCOTT_GGF" -> "G2_PATERNAL_GF";
+    "G3_FREEMAN_GGM" -> "G2_PATERNAL_GF";
+    "G3_DUNNING_GGF" -> "G2_PATERNAL_GM";
+    "G3_SATTERWHITE_GGM" -> "G2_PATERNAL_GM";
+    "G3_WOODY_GGF" -> "G2_MATERNAL_GF";
+    "G3_MCCRACKEN_GGM" -> "G2_MATERNAL_GF";
+    "G3_DUKE_GGF" -> "G2_MATERNAL_GM";
+    "G3_BOWDEN_GGM" -> "G2_MATERNAL_GM";
+    "G4_SATTERWHITE" -> "G3_SATTERWHITE_GGM";
+    "G4_POWELL" -> "G3_SATTERWHITE_GGM";
+}

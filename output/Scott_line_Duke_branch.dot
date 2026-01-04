@@ -1,0 +1,84 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Greenberry Duke 🔗\nb. 1817, GA\nd. 1899, TX", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LRF7-ZTC/greenberry-duke-1817-1899", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Louisa P. Bowden 🔗\nb. 1838, AL\nd. 1895, TX", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/KZ82-VBN/louisa-p-bowden-1838-1895", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Shadrack Duke 🔗\nb. 1769, NC\nd. 1833, GA", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1175", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Angelina \"Dicy\" Roberts 🔗\nb. 1774, NC\nd. 1837, GA", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/127118679/angelina-duke", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="Benjamin Duke 🔗\nb. 1727, VA\nd. 1801, GA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Benjamin-Duke/6000000119333148832?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Delia Drake Underwood 🔗\nb. 1728, GA\nd. 1772", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Delia-Underwood/6000000119333148823", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Fredrick Roberts 🔗\nb. 1753, VA\nd. ~1823, GA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-douglasopedia", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Angelina \"Laney\" Douglas 🔗\nb. 1758, NC\nd. 1828, GA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-douglasopedia", target="_blank", tooltip=""];
+    "G3_DOUGLAS_GGF" [label="Robert Douglas 🔗\nb. ~1732, VA\nd. ~1805, GA", fillcolor="lightgreen", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-edward-douglas", target="_blank", tooltip=""];
+    "G3_REEVES_GGM" [label="Olive Reeves 🔗\nb. ~1732, NC\nd. ~1819, GA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Reeves-315", target="_blank", tooltip=""];
+    "G3_DUKE_GGF" [label="John Duke III 🔗\nb. ~1699, VA\nd. ~1784", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1176", target="_blank", tooltip=""];
+    "G3_UNKNOWN_GGM" [label="Ruth 🔗\nb. ~1701\nd. ~1786", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1176", target="_blank", tooltip=""];
+    "G4_REEVES_GGGF" [label="William Reeves 🔗\nb. ~1680, NC\nd. 1751, NC", fillcolor="wheat", style="filled,rounded", URL="https://www.geni.com/people/William-Reeves-of-Granville-County/6000000177058762826", target="_blank", tooltip=""];
+    "G4_BURGESS_GGGM" [label="Margaret Burgess 🔗\nb. ~1715, NC\nd. after 1751, NC", fillcolor="wheat", style="filled,rounded", URL="https://www.geni.com/people/Margaret-Reeves/6000000004629518472", target="_blank", tooltip=""];
+    "G4_DUKE_GGGF" [label="John Duke II 🔗\nb. ~1661, VA\nd. ~1719, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1176", target="_blank", tooltip=""];
+    "G4_UNKNOWN2_GGGM" [label="Bridget Smith 🔗\nb. 1674, VA\nd. ~1762, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1176", target="_blank", tooltip=""];
+    "G4_DOUGLAS_GGGF" [label="Robert Douglas 🔗\nb. ~1712, VA\nd. 1742, GA", fillcolor="wheat", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-robert-douglas", target="_blank", tooltip=""];
+    "G5_DUKE_GGGGF" [label="John Duke Sr. 🔗\nb. ~1638, VA\nd. ~1678, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Duke-1365", target="_blank", tooltip=""];
+    "G5_KING_GGGGM" [label="Elizabeth King 🔗\nb. 1640, England\nd. 1695, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/King-20276", target="_blank", tooltip=""];
+    "G5_RIVES_GGGGF" [label="George Rives 🔗\nb. 1660, VA\nd. 1719, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Rives-104", target="_blank", tooltip=""];
+    "G5_ BISHOP_GGGGM" [label="Frances Elizabeth Bishop 🔗\nb. 1665, VA\nd. 1757, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Rives-104", target="_blank", tooltip=""];
+    "G5_DOUGLAS_GGGGF" [label="William Douglas 🔗\nb. ~1692, VA\nd. 1766, NC", fillcolor="plum", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-william-douglas-sr", target="_blank", tooltip=""];
+    "G6_RIVES_GGGGGF" [label="Timothy Rives II 🔗\nb. 1625, England\nd. ~1692, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://thereevesproject.org/data/tiki-index.php?page=Rives_Timothy_RR51ID206", target="_blank", tooltip=""];
+    "G6_DOUGLAS_GGGGGF" [label="John Douglas 🔗\nb. 1651, England\nd. ~1712, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://georgiadouglases.wixsite.com/genealogy/copy-of-john-douglas-1", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1862, GA", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_DOUGLAS_GGF"; "G3_REEVES_GGM"};
+    "G3_DOUGLAS_GGF" -> "G3_REEVES_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_DUKE_GGF"; "G3_UNKNOWN_GGM"};
+    "G3_DUKE_GGF" -> "G3_UNKNOWN_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_REEVES_GGGF"; "G4_BURGESS_GGGM"};
+    "G4_REEVES_GGGF" -> "G4_BURGESS_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_DUKE_GGGF"; "G4_UNKNOWN2_GGGM"};
+    "G4_DUKE_GGGF" -> "G4_UNKNOWN2_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_DUKE_GGGGF"; "G5_KING_GGGGM"};
+    "G5_DUKE_GGGGF" -> "G5_KING_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_RIVES_GGGGF"; "G5_ BISHOP_GGGGM"};
+    "G5_RIVES_GGGGF" -> "G5_ BISHOP_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_DUKE_GGF" -> "G2_PATERNAL_GF";
+    "G3_UNKNOWN_GGM" -> "G2_PATERNAL_GF";
+    "G3_DOUGLAS_GGF" -> "G2_MATERNAL_GM";
+    "G3_REEVES_GGM" -> "G2_MATERNAL_GM";
+    "G4_DOUGLAS_GGGF" -> "G3_DOUGLAS_GGF";
+    "G4_REEVES_GGGF" -> "G3_REEVES_GGM";
+    "G4_BURGESS_GGGM" -> "G3_REEVES_GGM";
+    "G4_DUKE_GGGF" -> "G3_DUKE_GGF";
+    "G4_UNKNOWN2_GGGM" -> "G3_DUKE_GGF";
+    "G5_RIVES_GGGGF" -> "G4_REEVES_GGGF";
+    "G5_ BISHOP_GGGGM" -> "G4_REEVES_GGGF";
+    "G5_DUKE_GGGGF" -> "G4_DUKE_GGGF";
+    "G5_KING_GGGGM" -> "G4_DUKE_GGGF";
+    "G5_DOUGLAS_GGGGF" -> "G4_DOUGLAS_GGGF";
+    "G6_RIVES_GGGGGF" -> "G5_RIVES_GGGGF";
+    "G6_DOUGLAS_GGGGGF" -> "G5_DOUGLAS_GGGGF";
+}

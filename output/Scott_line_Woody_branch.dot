@@ -1,0 +1,90 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Moses Woody 🔗\nb. 1810, NC\nd. MS", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LXSM-GTQ/moses-woody-1810", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Mary S. McCracken 🔗\nb. 1815, TN\nd. 1889, TX", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/2Z8S-FQJ/mary-s-mccracken-1815-1889", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Samuel Woody 🔗\nb. 1770, NC\nd. 1855, TN", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-780", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Jane Holmes 🔗\nb. 1774, NC\nd. 1856, TN", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Holmes-1651", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="Joseph Woody 🔗\nb. ~1748, MD\nd. ~1815, NC", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-227", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Sarah Thompson 🔗\nb. 1750, VA\nd. 1822, NC", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Thompson-5888", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Robert John Holmes 🔗\nb. ~1745, NC\nd. ~1820, NC", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Holmes-3284", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Rachel Bruce 🔗\nb. ~1755, VA\nd. ~1835, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Bruce-1766", target="_blank", tooltip=""];
+    "G3_BRUCE_GGF" [label="George G. Bruce 🔗\nb. 1713, Scotland\nd. 1797, TN", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/PSF5-FKV/george-g.-bruce-1713-1797", target="_blank", tooltip=""];
+    "G3_QUINN_GGM" [label="Mary Elizabeth Quinn 🔗\nb. 1720, VA\nd. 1793, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHZC-752/mary-elizabeth-quinn-1720-1793", target="_blank", tooltip=""];
+    "G3_HOLMES_GGF" [label="James Holmes 🔗\nb. ~1710\nd. NC", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Holmes-5407", target="_blank", tooltip=""];
+    "G3_LINDLEY_GGM" [label="Mary Lindley 🔗\nb. 1717, PA\nd. 1795, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Lindley-330", target="_blank", tooltip=""];
+    "G3_WOODY_GGF" [label="John Woody 🔗\nb. 1715, MA\nd. ~1763, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-608", target="_blank", tooltip=""];
+    "G3_THOMPSON_GGF" [label="Samuel Thompson 🔗\nb. ~1720, VA\nd. ~1804, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Thompson-20472", target="_blank", tooltip=""];
+    "G3_PAYNE_GGM" [label="Mary Payne 🔗\nb. 1726, VA\nd. NC", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Payne-5172", target="_blank", tooltip=""];
+    "G4_QUINN_GGGF" [label="Darby A. Quinn 🔗\nb. 1680, Ireland\nd. 1756, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/G6CW-91W/darby-a-quinn-1680-1756", target="_blank", tooltip=""];
+    "G4_ASHWORTH_GGGM" [label="Mary Ashworth 🔗\nb. 1689, England\nd. 1754, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/PM79-G44/mary-ashworth-1689-1754", target="_blank", tooltip=""];
+    "G4_WOODY_GGGF" [label="John Woody 🔗\nb. 1687, MA\nd. ~1719, MA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-238", target="_blank", tooltip=""];
+    "G4_GOWAN_GGGM" [label="Mary Gowan\nb. ~1688, MA\nd. ~1755, NC", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_LINDLEY_GGGF" [label="James Lindley 🔗\nb. 1681, Ireland\nd. 1726, PA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Lindley-48", target="_blank", tooltip=""];
+    "G4_PARKE_GGGM" [label="Eleanor Parke\nb. 1684, Ireland\nd. ~1748, PA", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G5_WOODY_GGGGF" [label="John Woody 🔗\nb. 1659, MA\nd. 1695, MA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-283", target="_blank", tooltip=""];
+    "G5_WINCHESTER_GGGGM" [label="Mary Winchester 🔗\nb.\nd. ~1691", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Winchester-120", target="_blank", tooltip=""];
+    "G6_WOODY_GGGGGF" [label="Isaac Woody 🔗\nb. 1631, England\nd. ~1676, MA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woody-795", target="_blank", tooltip=""];
+    "G6_HARPER_GGGGGM" [label="Dorcas Harper 🔗\nb. ~1636, England\nd. ~1695, MA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Harper-1404", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1795, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1766, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_BRUCE_GGF"; "G3_QUINN_GGM"};
+    "G3_BRUCE_GGF" -> "G3_QUINN_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1720, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G3_LINDLEY_GGM"; "G3_WOODY_GGF"};
+    "G3_LINDLEY_GGM" -> "G3_WOODY_GGF" [dir=none, color=black, style=dashed, constraint=false, label="m. 1738, MD", fontsize=10, fontcolor=black];
+    {rank=same; "G3_THOMPSON_GGF"; "G3_PAYNE_GGM"};
+    "G3_THOMPSON_GGF" -> "G3_PAYNE_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_QUINN_GGGF"; "G4_ASHWORTH_GGGM"};
+    "G4_QUINN_GGGF" -> "G4_ASHWORTH_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_WOODY_GGGF"; "G4_GOWAN_GGGM"};
+    "G4_WOODY_GGGF" -> "G4_GOWAN_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_LINDLEY_GGGF"; "G4_PARKE_GGGM"};
+    "G4_LINDLEY_GGGF" -> "G4_PARKE_GGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1705, Ireland", fontsize=10, fontcolor=black];
+    {rank=same; "G5_WOODY_GGGGF"; "G5_WINCHESTER_GGGGM"};
+    "G5_WOODY_GGGGF" -> "G5_WINCHESTER_GGGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1686", fontsize=10, fontcolor=black];
+    {rank=same; "G6_WOODY_GGGGGF"; "G6_HARPER_GGGGGM"};
+    "G6_WOODY_GGGGGF" -> "G6_HARPER_GGGGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1655, MA", fontsize=10, fontcolor=black];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_WOODY_GGF" -> "G2_PATERNAL_GF";
+    "G3_LINDLEY_GGM" -> "G2_PATERNAL_GF";
+    "G3_THOMPSON_GGF" -> "G2_PATERNAL_GM";
+    "G3_PAYNE_GGM" -> "G2_PATERNAL_GM";
+    "G3_HOLMES_GGF" -> "G2_MATERNAL_GF";
+    "G3_BRUCE_GGF" -> "G2_MATERNAL_GM";
+    "G3_QUINN_GGM" -> "G2_MATERNAL_GM";
+    "G4_QUINN_GGGF" -> "G3_QUINN_GGM";
+    "G4_ASHWORTH_GGGM" -> "G3_QUINN_GGM";
+    "G4_LINDLEY_GGGF" -> "G3_LINDLEY_GGM";
+    "G4_PARKE_GGGM" -> "G3_LINDLEY_GGM";
+    "G4_WOODY_GGGF" -> "G3_WOODY_GGF";
+    "G4_GOWAN_GGGM" -> "G3_WOODY_GGF";
+    "G5_WOODY_GGGGF" -> "G4_WOODY_GGGF";
+    "G5_WINCHESTER_GGGGM" -> "G4_WOODY_GGGF";
+    "G6_WOODY_GGGGGF" -> "G5_WOODY_GGGGF";
+    "G6_HARPER_GGGGGM" -> "G5_WOODY_GGGGF";
+}

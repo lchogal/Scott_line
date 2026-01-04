@@ -1,0 +1,70 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Mary S. McCracken 🔗\nb. 1815, TN\nd. 1889, TX", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/2Z8S-FQJ/mary-s-mccracken-1815-1889", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Moses Woody 🔗\nb. 1810, NC\nd. MS", fillcolor="gold", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LXSM-GTQ/moses-woody-1810", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Ephraim McCracken 🔗\nb. ~1772, MD\nd. 1851, MS", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LC78-GN6/ephraim-mccracken-1772-1851", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Mary Polly Mitchell 🔗\nb. 1781, NC\nd. 1811, NC", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/92330605/myrtle_jewel-scott", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="John McCracken 🔗\nb. ~1743, PA\nd. 1831, Scotland", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.ancestry.com/genealogy/records/john-mccracken-24-6zqv", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Jennet Lytle 🔗\nb. 1745, PA\nd. after 1820, TN", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHXM-ZQH/jennet-lytle-1745-1820", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="John Stuart Mitchell 🔗\nb. 1760, NC\nd. 1839, TN", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZKD-3LL/john-stuart-mitchell-1760-1839", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Agnes Tate 🔗\nb. 1760, NC\nd. 1830, TN", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZKD-35Q/agnes-tate-1760-1830", target="_blank", tooltip=""];
+    "G3_MITCHELL_GGF" [label="Andrew Alexander Mitchell 🔗\nb. 1731, Ireland\nd. 1795, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/K26B-8VZ/andrew-alexander-mitchell-1731-1795", target="_blank", tooltip=""];
+    "G3_MCGOWAN_GGM" [label="Mary Margaret McGowan 🔗\nb. 1722, Ireland\nd. 1790, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LT4T-MB3/mary-margaret-mcgowan-1722-1790", target="_blank", tooltip=""];
+    "G3_MCCRACKEN_GGF" [label="John McCracken 🔗\nb. 1699, Ireland\nd. 1792", fillcolor="lightgreen", style="filled,rounded", URL="https://www.ancestry.com/genealogy/records/john-mccracken-24-6zqv", target="_blank", tooltip=""];
+    "G3_CLOTWORTHY_GGM" [label="Mary Clotworthy 🔗\nb.\nd.", fillcolor="lightgreen", style="filled,rounded", URL="https://www.ancestry.com/genealogy/records/john-mccracken-24-6zqv", target="_blank", tooltip=""];
+    "G3_LYTLE_GGF" [label="Ephraim Lytle 🔗\nb. 1714, Ireland\nd. 1775, PA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LBK8-83D/ephraim-lytle-1714-1775", target="_blank", tooltip=""];
+    "G3_MCCRACKEN_GGM" [label="Jennet McCracken 🔗\nb. 1714, Ireland\nd. 1762, PA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZRC-VQL/jennet-mccracken-1714-1762", target="_blank", tooltip=""];
+    "G3_TAIT_GGF" [label="George Tait 🔗\nb. 1731, Scotland\nd. 1774, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LD5F-577/george-tait-1731-1774", target="_blank", tooltip=""];
+    "G3_SCOBY_GGM" [label="Jennet Scoby 🔗\nb. 1737, PA\nd. 1785, NC", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LD5F-5CS/jennet-scoby-1737-1785", target="_blank", tooltip=""];
+    "G4_MCCRACKEN_GGGF" [label="John Hugh McCracken\nb. 1691, Scotland\nd. 1730, Ireland", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_CAMPBELL_GGGM" [label="Ann Campbell 🔗\nb. ~1690, Scotland\nd. ~1742", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Campbell-15717", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1811, TN", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1766, PA", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1779, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G3_MITCHELL_GGF"; "G3_MCGOWAN_GGM"};
+    "G3_MITCHELL_GGF" -> "G3_MCGOWAN_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1742, Ireland", fontsize=10, fontcolor=black];
+    {rank=same; "G3_MCCRACKEN_GGF"; "G3_CLOTWORTHY_GGM"};
+    "G3_MCCRACKEN_GGF" -> "G3_CLOTWORTHY_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_LYTLE_GGF"; "G3_MCCRACKEN_GGM"};
+    "G3_LYTLE_GGF" -> "G3_MCCRACKEN_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1736", fontsize=10, fontcolor=black];
+    {rank=same; "G3_TAIT_GGF"; "G3_SCOBY_GGM"};
+    "G3_TAIT_GGF" -> "G3_SCOBY_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1756, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G4_MCCRACKEN_GGGF"; "G4_CAMPBELL_GGGM"};
+    "G4_MCCRACKEN_GGGF" -> "G4_CAMPBELL_GGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1714, Ireland", fontsize=10, fontcolor=black];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_MCCRACKEN_GGF" -> "G2_PATERNAL_GF";
+    "G3_CLOTWORTHY_GGM" -> "G2_PATERNAL_GF";
+    "G3_LYTLE_GGF" -> "G2_PATERNAL_GM";
+    "G3_MCCRACKEN_GGM" -> "G2_PATERNAL_GM";
+    "G3_MITCHELL_GGF" -> "G2_MATERNAL_GF";
+    "G3_MCGOWAN_GGM" -> "G2_MATERNAL_GF";
+    "G3_TAIT_GGF" -> "G2_MATERNAL_GM";
+    "G3_SCOBY_GGM" -> "G2_MATERNAL_GM";
+    "G4_MCCRACKEN_GGGF" -> "G3_MCCRACKEN_GGM";
+    "G4_CAMPBELL_GGGM" -> "G3_MCCRACKEN_GGM";
+}

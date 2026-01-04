@@ -1,0 +1,100 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Paul Satterwhite 🔗\nb. 1795, GA\nd. 1858, AR", fillcolor="gold", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-251", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Katherine Powell 🔗\nb. 1797, GA\nd. 1873, AR", fillcolor="gold", style="filled,rounded", URL="https://www.wikitree.com/wiki/Powell-4847", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Thomas Satterwhite 🔗\nb. ~1769, VA\nd. ~1804, GA", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-249", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Nancy Williams 🔗\nb. 1774, GA\nd. ~1819, TN", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Williams-23319", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="William Satterwhite 🔗\nb. ~1733, VA\nd. ~1805, GA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-248", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Millicent Dunn 🔗\nb. ~1746, VA\nd. ~1820, GA", fillcolor="lightsteelblue", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.wikitree.com/wiki/Dunn-1110", target="_blank", tooltip="", class="tree-connection"];
+    "G2_MATERNAL_GF" [label="Jacob Williams 🔗\nb. 1746, VA\nd. 1819, TN", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Williams-23320", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Margaret Peggy Cochran 🔗\nb. 1745, Scotland\nd. 1801, TN", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Cochran-1513", target="_blank", tooltip=""];
+    "G3_SATTERWHITE_GGF" [label="Thomas P. Satterwhite 🔗\nb. 1711, VA\nd. ~1767, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-57", target="_blank", tooltip=""];
+    "G3_BLAKE_GGM" [label="Sarah Blake 🔗\nb. ~1711, VA\nd. ~1746, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Blake-4335", target="_blank", tooltip=""];
+    "G4_SATTERWHITE_GGGF" [label="Michael Satterwhite 🔗\nb. 1686, VA\nd. ~1736, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-58", target="_blank", tooltip=""];
+    "G4_BLEDWELL_GGGM" [label="Julia Bedwell 🔗\nb. ~1692, England\nd. ~1736, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Bedwell-381", target="_blank", tooltip=""];
+    "G4_BLAKE_GGGF" [label="William Blake 🔗\nb. ~1677, VA\nd. ~1746, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Blake-2594", target="_blank", tooltip=""];
+    "G4_SESSUMS_GGGM" [label="Mary Sessums 🔗\nb. ~1687, VA\nd. ~1746, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Sessums-22", target="_blank", tooltip=""];
+    "G5_SATTERWHITE_GGGGF" [label="Thomas Satterwhite 🔗\nb. ~1660, VA\nd. ~1725, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-178", target="_blank", tooltip=""];
+    "G5_WILLIAMS_GGGGM" [label="Mary Ann Williams 🔗\nb. ~1665, England\nd. ~1710, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Williams-48337", target="_blank", tooltip=""];
+    "G5_SESSUMS_GGGGF" [label="Nicholas Sessums 🔗\nb. ~1646, England\nd. ~1716, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Sessums-3", target="_blank", tooltip=""];
+    "G5_CULMER_GGGGM" [label="Hannah Culmer 🔗\nb. ~1652, England or VA\nd. ~1697, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Culmer-79", target="_blank", tooltip=""];
+    "G5_BLAKE_GGGGF" [label="Thomas Blake 🔗\nb. 1640, England\nd. 1708, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Blake-3556", target="_blank", tooltip=""];
+    "G5_CHAMPION_GGGGM" [label="Alice Elizabeth Champion 🔗\nb. ~1646, VA\nd. ~1710, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Champion-986", target="_blank", tooltip=""];
+    "G6_SATTERWHITE_GGGGGF" [label="Michael Satterwhite 🔗\nb. ~1639, VA\nd. ~1700, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterwhite-179", target="_blank", tooltip=""];
+    "G6_CROSHAW_GGGGGM" [label="Catherine Croshow 🔗\nb. ~1640, VA\nd. ~1691, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Croshaw-81", target="_blank", tooltip=""];
+    "G6_CULMER_GGGGGF" [label="Thomas Culmer 🔗\nb. ~1621, England\nd. ~1622, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Culmer-109", target="_blank", tooltip=""];
+    "G6_BLAKE_GGGGGM" [label="Eliza Blake 🔗\nb. 1625, England\nd. 1670, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Blake-1324", target="_blank", tooltip=""];
+    "G6_CHAMPION_GGGGGF" [label="Edward Champion 🔗\nb. 1602, England\nd. ~1668, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Champion-23", target="_blank", tooltip=""];
+    "G6_ATKENS_GGGGGM" [label="Elizabeth Atkens 🔗\nb. ~1615, England\nd. ~1670, VA", fillcolor="lightyellow", style="filled,rounded", URL="https://www.wikitree.com/wiki/Atkens-3", target="_blank", tooltip=""];
+    "G7_SATTERWHITE_GGGGGGF" [label="Michael Satterwhite 🔗\nb. ~1580, England\nd. ~1660, VA", fillcolor="lightcyan", style="filled,rounded", URL="https://www.wikitree.com/wiki/Satterthwaite-51", target="_blank", tooltip=""];
+    "G7_COULDER_GGGGGGM" [label="Clara Catherine Coulder\nb. 1623, England\nd. 1691, VA", fillcolor="lightcyan", style="filled,rounded", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. 1814", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1790", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1764", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_SATTERWHITE_GGF"; "G3_BLAKE_GGM"};
+    "G3_SATTERWHITE_GGF" -> "G3_BLAKE_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_SATTERWHITE_GGGF"; "G4_BLEDWELL_GGGM"};
+    "G4_SATTERWHITE_GGGF" -> "G4_BLEDWELL_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_BLAKE_GGGF"; "G4_SESSUMS_GGGM"};
+    "G4_BLAKE_GGGF" -> "G4_SESSUMS_GGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1704, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G5_SATTERWHITE_GGGGF"; "G5_WILLIAMS_GGGGM"};
+    "G5_SATTERWHITE_GGGGF" -> "G5_WILLIAMS_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_SESSUMS_GGGGF"; "G5_CULMER_GGGGM"};
+    "G5_SESSUMS_GGGGF" -> "G5_CULMER_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_BLAKE_GGGGF"; "G5_CHAMPION_GGGGM"};
+    "G5_BLAKE_GGGGF" -> "G5_CHAMPION_GGGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1669", fontsize=10, fontcolor=black];
+    {rank=same; "G6_SATTERWHITE_GGGGGF"; "G6_CROSHAW_GGGGGM"};
+    "G6_SATTERWHITE_GGGGGF" -> "G6_CROSHAW_GGGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G6_CULMER_GGGGGF"; "G6_BLAKE_GGGGGM"};
+    "G6_CULMER_GGGGGF" -> "G6_BLAKE_GGGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G6_CHAMPION_GGGGGF"; "G6_ATKENS_GGGGGM"};
+    "G6_CHAMPION_GGGGGF" -> "G6_ATKENS_GGGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G7_SATTERWHITE_GGGGGGF"; "G7_COULDER_GGGGGGM"};
+    "G7_SATTERWHITE_GGGGGGF" -> "G7_COULDER_GGGGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_SATTERWHITE_GGF" -> "G2_PATERNAL_GF";
+    "G3_BLAKE_GGM" -> "G2_PATERNAL_GF";
+    "G4_SATTERWHITE_GGGF" -> "G3_SATTERWHITE_GGF";
+    "G4_BLEDWELL_GGGM" -> "G3_SATTERWHITE_GGF";
+    "G4_BLAKE_GGGF" -> "G3_BLAKE_GGM";
+    "G4_SESSUMS_GGGM" -> "G3_BLAKE_GGM";
+    "G5_SATTERWHITE_GGGGF" -> "G4_SATTERWHITE_GGGF";
+    "G5_WILLIAMS_GGGGM" -> "G4_SATTERWHITE_GGGF";
+    "G5_BLAKE_GGGGF" -> "G4_BLAKE_GGGF";
+    "G5_CHAMPION_GGGGM" -> "G4_BLAKE_GGGF";
+    "G5_SESSUMS_GGGGF" -> "G4_SESSUMS_GGGM";
+    "G5_CULMER_GGGGM" -> "G4_SESSUMS_GGGM";
+    "G6_SATTERWHITE_GGGGGF" -> "G5_SATTERWHITE_GGGGF";
+    "G6_CROSHAW_GGGGGM" -> "G5_SATTERWHITE_GGGGF";
+    "G6_CULMER_GGGGGF" -> "G5_CULMER_GGGGM";
+    "G6_BLAKE_GGGGGM" -> "G5_CULMER_GGGGM";
+    "G6_CHAMPION_GGGGGF" -> "G5_CHAMPION_GGGGM";
+    "G6_ATKENS_GGGGGM" -> "G5_CHAMPION_GGGGM";
+    "G7_SATTERWHITE_GGGGGGF" -> "G6_SATTERWHITE_GGGGGF";
+    "G7_COULDER_GGGGGGM" -> "G6_SATTERWHITE_GGGGGF";
+}

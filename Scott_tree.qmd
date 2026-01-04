@@ -1,0 +1,129 @@
+---
+format:
+  html:
+    output-file: index.html
+    theme: default
+    toc: true
+    page-layout: full
+    css: |
+      body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .quarto-container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .family-tree {
+        max-width: 100%;
+        height: auto;
+        margin: 1em 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        padding: 0.5em;
+        background-color: #fafafa;
+      }
+
+      .family-tree svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+
+      .family-tree img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+
+      .tree-description {
+        margin-top: 1em;
+        padding: 1em;
+        background-color: #f8f9fa;
+        border-left: 4px solid #007bff;
+        font-style: italic;
+      }
+
+      h1, h2, h3 {
+        color: #333;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 0.5em;
+        text-align: center;
+        margin: 1em 0;
+      }
+
+      footer, .footer {
+        position: static !important;
+        margin-top: 2em;
+        padding: 1em;
+      }
+
+      @media (max-width: 768px) {
+        .family-tree {
+          margin: 0.5em 0;
+          padding: 0.3em;
+        }
+
+        .family-tree svg,
+        .family-tree img {
+          min-height: 400px;
+        }
+      }
+---
+
+# Scott Family Tree
+
+## Main Line
+
+::: family-tree
+<object data="output/Scott_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## Powell Branch
+
+::: family-tree
+<object data="output/Scott_line_Powell_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## Satterwhite Branch
+
+::: family-tree
+<object data="output/Scott_line_Satterwhite_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## Satterwhite-Dunn Branch
+
+::: family-tree
+<object data="output/Scott_line_Satterwhite_branch_Dunn_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## Duke Branch
+
+::: family-tree
+<object data="output/Scott_line_Duke_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## McCracken Branch
+
+::: family-tree
+<object data="output/Scott_line_McCracken_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+## Woody Branch
+
+::: family-tree
+<object data="output/Scott_line_Woody_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+---
+
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>. Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2025, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Scott_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).

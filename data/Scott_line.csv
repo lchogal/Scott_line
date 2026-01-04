@@ -1,0 +1,19 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Vivian Ione Scott,0,Vivian Ione Scott,"b. 1915, TX","d. 1996, TX",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://www.findagrave.com/memorial/106908714/vivian-hodges_kline,,
+G0_SPOUSE,Chauncey William Hodges,0,Chauncey William Hodges,"b. 1910, TX","d. 1977, TX",,,G0_ME,,https://www.findagrave.com/memorial/106908643/chauncey_william-hodges,,
+G1_FATHER,Samuel Mackel Scott,1,Samuel Mackel Scott,"b. 1885, TX","d. 1975, TX",G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,,https://www.findagrave.com/memorial/92234814/samuel_mackel_scott?utm_source=chatgpt.com,,
+G1_MOTHER,Myrtle Jewel Woody Scott,1,Myrtle Jewel Woody Scott,b. 1893,"d. 1985, TX",G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,,https://www.findagrave.com/memorial/92330605/myrtle_jewel-scott,,
+G2_PATERNAL_GF,James Mackel Scott,2,James Mackel Scott,"b. 1859, LA","d. 1910, TX",G3_SCOTT_GGF,G3_FREEMAN_GGM,G2_PATERNAL_GM,"m. 1883, TX",https://ancestors.familysearch.org/en/L11M-1C8/james-mackel-%27max%27-scott-1859-1910,,
+G2_PATERNAL_GM,Louisa Jane Dunning,2,Louisa Jane Dunning,"b. 1868, TX","d. 1954, TX",G3_DUNNING_GGF,G3_SATTERWHITE_GGM,G2_PATERNAL_GF,"m. 1883, TX",https://ancestors.familysearch.org/en/L28Y-8CP/louisa-jane-dunning-1868-1954,,
+G2_MATERNAL_GF,Joseph Carrol Woody,2,Joseph Carrol Woody,"b. 1859, MS","d. 1932, TX",G3_WOODY_GGF,G3_MCCRACKEN_GGM,G2_MATERNAL_GM,"m. 1882, TX",https://ancestors.familysearch.org/en/LVMJ-G2B/joseph-carrol-woody-1859-1932,,
+G2_MATERNAL_GM,Clifford Green Duke,2,Clifford Green Duke,"b. 1861, GA","d. 1947, TX",G3_DUKE_GGF,G3_BOWDEN_GGM,G2_MATERNAL_GF,"m. 1882, TX",https://ancestors.familysearch.org/en/LXSM-P9D/clifford-green-duke-1861-1947,,
+G3_SCOTT_GGF,William Harrison Scott,3,William Harrison Scott,b. 1831,d. ,,,G3_FREEMAN_GGM,,,,
+G3_FREEMAN_GGM,Sarah Lou Freeman,3,Sarah Lou Freeman,b. 1840,d. 1900,,,G3_SCOTT_GGF,,,,
+G3_DUNNING_GGF,Samuel Washington Dunning,3,Samuel Washington Dunning,"b. 1833, TN","d. 1909, TX",,,G3_SATTERWHITE_GGM,"m. 1858, AR",https://ancestors.familysearch.org/en/LHXV-RX9/samuel-washington-dunning-1833-1909,,
+G3_SATTERWHITE_GGM,Nancy Elizabeth Satterwhite,3,Nancy Elizabeth Satterwhite,"b. 1830, TN","d. 1913, AR",G4_SATTERWHITE,G4_POWELL,G3_DUNNING_GGF,"m. 1858, AR",https://ancestors.familysearch.org/en/LHXV-R63/nancy-elizabeth-satterwhite-1828-1913,1870 Census data (Guadalupe Co.) https://www.genealogy.com/forum/surnames/topics/satterwhite/300/,
+G3_WOODY_GGF,Moses Woody,3,Moses Woody,"b. 1810, NC",d. MS,,,G3_MCCRACKEN_GGM,,https://ancestors.familysearch.org/en/LXSM-GTQ/moses-woody-1810,,Woody_branch
+G3_MCCRACKEN_GGM,Mary S. McCracken,3,Mary S. McCracken,"b. 1815, TN","d. 1889, TX",,,G3_WOODY_GGF,,https://ancestors.familysearch.org/en/2Z8S-FQJ/mary-s-mccracken-1815-1889,,McCracken_branch
+G3_DUKE_GGF,Greenberry Duke,3,Greenberry Duke,"b. 1817, GA","d. 1899, TX",,,G3_BOWDEN_GGM,"m. ~1862, GA",https://ancestors.familysearch.org/en/LRF7-ZTC/greenberry-duke-1817-1899,,Duke_branch
+G3_BOWDEN_GGM,Louisa P. Bowden,3,Louisa P. Bowden,"b. 1838, AL","d. 1895, TX",,,G3_DUKE_GGF,"m. ~1862, GA",https://ancestors.familysearch.org/en/KZ82-VBN/louisa-p-bowden-1838-1895,,
+G4_SATTERWHITE,Paul Satterwhite,4,Paul Satterwhite,"b. 1795, GA","d. 1858, AR",,,G4_POWELL,m. 1814,https://ancestors.familysearch.org/en/G947-VZ1/capt.-paul-satterwhite-1795-1858,,Satterwhite_branch
+G4_POWELL,Katherine Powell,4,Katherine Powell,"b. 1797, GA","d. 1873, AR",,,G4_SATTERWHITE,m. 1814,https://ancestors.familysearch.org/en/G947-L4D/katherine-%22kittie%22-powell-1797-1873,,Powell_branch
