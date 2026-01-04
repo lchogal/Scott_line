@@ -1,0 +1,62 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Mary Elizabeth Pope 🔗\nb. 1773, NC\nd. 1831, AL", fillcolor="gold", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-1042", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Henry W. Powell 🔗\nb. ~1767, NC\nd. ~1840, AL", fillcolor="gold", style="filled,rounded", URL="https://www.wikitree.com/wiki/Powell-2593", target="_blank", tooltip=""];
+    "G1_FATHER" [label="William Pope 🔗\nb. 1733, NC\nd. 1818, NC", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-4351", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Ann Woodward 🔗\nb. 1745, NC\nd. 1818, NC", fillcolor="lightcoral", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woodard-1954", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="William Pope 🔗\nb. ~1685, VA\nd. ~1749, NC", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-7337", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Thomas Woodard 🔗\nb. ~1720, NC\nd. ~1791, NC", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Woodard-1955", target="_blank", tooltip=""];
+    "G3_POPE_GGF" [label="Henry Pope 🔗\nb. 1664, VA\nd. 1728, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-755", target="_blank", tooltip=""];
+    "G3_WATTS_GGM" [label="Sarah Watts 🔗\nb. ~1664, VA\nd. 1730, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Watts-1211", target="_blank", tooltip=""];
+    "G4_POPE_GGGF" [label="William Pope 🔗\nb. ~1634, England\nd. ~1708, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-1817", target="_blank", tooltip=""];
+    "G4_UNKNOWN_GGGM" [label="Marie 🔗\nb. England\nd.", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Pope-1817", target="_blank", tooltip=""];
+    "G4_WATTS_GGGF" [label="John Watts 🔗\nb. ~1625, England or VA\nd. 1697, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Watts-3094", target="_blank", tooltip=""];
+    "G4_ENGLISH_GGGM" [label="Alice English 🔗\nb. ~1630, VA\nd. ~1678, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/English-1316", target="_blank", tooltip=""];
+    "G5_ENGLISH_GGGGF" [label="John English 🔗\nb. 1612, England\nd. ~1678, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/English-2396", target="_blank", tooltip=""];
+    "G5_UNKNOWN4_GGGGM" [label="Frances 🔗\nb. ~1614, England\nd. ~1675, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Watts-3094", target="_blank", tooltip=""];
+    "G5_WATTS_GGGGF" [label="Thomas Watts 🔗\nb. ~1607, VA\nd.", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Watts-3094", target="_blank", tooltip=""];
+    "G5_UNKNOWN5_GGGGM" [label="Jane\nb. ~1610\nd.", fillcolor="plum", style="filled,rounded", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. 1792, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1764, NC", fontsize=10, fontcolor=black];
+    {rank=same; "G3_POPE_GGF"; "G3_WATTS_GGM"};
+    "G3_POPE_GGF" -> "G3_WATTS_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_POPE_GGGF"; "G4_UNKNOWN_GGGM"};
+    "G4_POPE_GGGF" -> "G4_UNKNOWN_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_WATTS_GGGF"; "G4_ENGLISH_GGGM"};
+    "G4_WATTS_GGGF" -> "G4_ENGLISH_GGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1663", fontsize=10, fontcolor=black];
+    {rank=same; "G5_ENGLISH_GGGGF"; "G5_UNKNOWN4_GGGGM"};
+    "G5_ENGLISH_GGGGF" -> "G5_UNKNOWN4_GGGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1634, England", fontsize=10, fontcolor=black];
+    {rank=same; "G5_WATTS_GGGGF"; "G5_UNKNOWN5_GGGGM"};
+    "G5_WATTS_GGGGF" -> "G5_UNKNOWN5_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G3_POPE_GGF" -> "G2_PATERNAL_GF";
+    "G3_WATTS_GGM" -> "G2_PATERNAL_GF";
+    "G4_POPE_GGGF" -> "G3_POPE_GGF";
+    "G4_UNKNOWN_GGGM" -> "G3_POPE_GGF";
+    "G4_WATTS_GGGF" -> "G3_WATTS_GGM";
+    "G4_ENGLISH_GGGM" -> "G3_WATTS_GGM";
+    "G5_WATTS_GGGGF" -> "G4_WATTS_GGGF";
+    "G5_UNKNOWN5_GGGGM" -> "G4_WATTS_GGGF";
+    "G5_ENGLISH_GGGGF" -> "G4_ENGLISH_GGGM";
+    "G5_UNKNOWN4_GGGGM" -> "G4_ENGLISH_GGGM";
+}
