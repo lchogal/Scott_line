@@ -1,11 +1,21 @@
 ---
+title: ""
 format:
   html:
     output-file: index.html
     theme: default
     toc: false
+    toc-location: body
     page-layout: full
     css: |
+      #title-block-header {
+        display: none;
+      }
+
+      #quarto-header {
+        display: none;
+      }
+
       body {
         max-width: 100%;
         margin: 0;
@@ -79,8 +89,6 @@ format:
         }
       }
 ---
-
-# Scott Family Tree
 
 ## Scott line
 
