@@ -137,6 +137,6 @@ footer, .footer {
 
 ---
 
-::: {style="margin: 1em 0; padding: 0.5em 1em; max-width: 100%;"}
+::: {style="margin: 1em 0; padding: 0.5em; max-width: 100%;"}
 This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Vivian Ione Scott. Research relied on crowd-sourced information from Geni.com, WikiTree.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2026, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Scott_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
 :::
