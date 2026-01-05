@@ -102,25 +102,25 @@ footer, .footer {
 ## Scott line/Powell branch/Pope Branch
 
 ::: family-tree
-<object data="output/Scott_line_Powell_branch_Pope_branch.html" type="text/html" style="width: 100%; height: 500px;"></object>
+<object data="output/Scott_line_Powell_branch_Pope_branch.html" type="text/html" style="width: 100%; height: 450px;"></object>
 :::
 
 ## Scott line/Satterwhite Branch
 
 ::: family-tree
-<object data="output/Scott_line_Satterwhite_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+<object data="output/Scott_line_Satterwhite_branch.html" type="text/html" style="width: 100%; height: 700px;"></object>
 :::
 
 ## Scott line/Satterwhite branch/Dunn Branch
 
 ::: family-tree
-<object data="output/Scott_line_Satterwhite_branch_Dunn_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+<object data="output/Scott_line_Satterwhite_branch_Dunn_branch.html" type="text/html" style="width: 100%; height: 500px;"></object>
 :::
 
 ## Scott line/Duke Branch
 
 ::: family-tree
-<object data="output/Scott_line_Duke_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+<object data="output/Scott_line_Duke_branch.html" type="text/html" style="width: 100%; height: 700px;"></object>
 :::
 
 ## Scott line/McCracken Branch
@@ -132,7 +132,7 @@ footer, .footer {
 ## Scott line/Woody Branch
 
 ::: family-tree
-<object data="output/Scott_line_Woody_branch.html" type="text/html" style="width: 100%; height: 610px;"></object>
+<object data="output/Scott_line_Woody_branch.html" type="text/html" style="width: 100%; height: 700px;"></object>
 :::
 
 ---
