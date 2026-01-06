@@ -25,11 +25,8 @@ digraph family_tree {
     "G3_LEE_GGM" [label="Sarah Jane Lee 🔗\nb. 1664, England\nd. 1739, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Lee-34349", target="_blank", tooltip=""];
     "G4_REEVES_GGGF" [label="Henry Reeves 🔗\nb. ~1630, England\nd. ~1687, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Reeves-4192", target="_blank", tooltip=""];
     "G4_BAGNALL_GGGM" [label="Elizabeth Bagnall 🔗\nb. ~1640, VA\nd. ~1712, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Bagnall-468", target="_blank", tooltip=""];
-    "G4_LEE_GGGF" [label="Richard Henry Lee 🔗\nb. 1644, VA\nd. 1714, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Lee-16944", target="_blank", tooltip=""];
     "G5_BAGNALL_GGGGF" [label="Roger Bagnell 🔗\nb. ~1610, England\nd. 1647, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Bagnall-131", target="_blank", tooltip=""];
     "G5_UNKNOWN_GGGGM" [label="Rebecca 🔗\nb.\nd.", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Bagnall-131", target="_blank", tooltip=""];
-    "G5_LEE_GGGGF" [label="Richard Lee 🔗\nb. ~1618, England\nd. 1665, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Lee-318", target="_blank", tooltip=""];
-    "G5_CONSTABLE_GGGGM" [label="Anne Constable 🔗\nb. ~1622, England\nd. 1796, VA", fillcolor="plum", style="filled,rounded", URL="https://www.wikitree.com/wiki/Constable-37", target="_blank", tooltip=""];
     
     // Tree navigation connection boxes
     
@@ -52,8 +49,6 @@ digraph family_tree {
     "G4_REEVES_GGGF" -> "G4_BAGNALL_GGGM" [dir=none, color=black, style=dashed, constraint=false];
     {rank=same; "G5_BAGNALL_GGGGF"; "G5_UNKNOWN_GGGGM"};
     "G5_BAGNALL_GGGGF" -> "G5_UNKNOWN_GGGGM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1635", fontsize=10, fontcolor=black];
-    {rank=same; "G5_LEE_GGGGF"; "G5_CONSTABLE_GGGGM"};
-    "G5_LEE_GGGGF" -> "G5_CONSTABLE_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
     
     // Parent-child relationships
     "G1_FATHER" -> "G0_ME";
@@ -73,6 +68,4 @@ digraph family_tree {
     "G4_LEE_GGGF" -> "G3_LEE_GGM";
     "G5_BAGNALL_GGGGF" -> "G4_BAGNALL_GGGM";
     "G5_UNKNOWN_GGGGM" -> "G4_BAGNALL_GGGM";
-    "G5_LEE_GGGGF" -> "G4_LEE_GGGF";
-    "G5_CONSTABLE_GGGGM" -> "G4_LEE_GGGF";
 }
