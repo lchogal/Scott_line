@@ -65,7 +65,6 @@ digraph family_tree {
     "G3_LEE_GGM" -> "G2_MATERNAL_GM";
     "G4_REEVES_GGGF" -> "G3_REEVES_GGF";
     "G4_BAGNALL_GGGM" -> "G3_REEVES_GGF";
-    "G4_LEE_GGGF" -> "G3_LEE_GGM";
     "G5_BAGNALL_GGGGF" -> "G4_BAGNALL_GGGM";
     "G5_UNKNOWN_GGGGM" -> "G4_BAGNALL_GGGM";
 }
